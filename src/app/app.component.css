@@ -1,0 +1,124 @@
+.main-content{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px  0px;
+}
+
+.search-content{
+    margin: 30px 0px 15px;
+    display: flex;
+}
+.search-people{
+    margin: 30px 0px 15px;
+    display: flex;
+}
+.search-content input{
+    flex: 3;
+    margin-right: 30px;
+    padding: 12px 8px;
+
+}
+.search-people input{
+    flex: 3;
+    margin-right: 30px;
+    padding: 12px 8px;
+
+}
+.search-people button{
+    flex: 1;
+    background-color: yellowgreen;
+    outline: none;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+}
+.search-content button{
+    flex: 1;
+    background-color: #30a47b;
+    outline: none;
+    border: 1px solid #30a47b;
+    cursor: pointer;
+}
+
+.categories .category{
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid #aaaaaa;
+    margin: 0px 5px 10px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.people {
+    display:list-item ;
+    text-align: start;
+    padding: 4px;
+    border: 1px solid #aaaaaa;
+    margin: 0px 5px 10px 0px;
+    
+
+}
+
+.joke-wrapper{
+    padding: 15px 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+
+}
+.people-wrapper{
+    padding: 15px 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+
+}
+
+.joke-wrapper .joke {
+    display: flex;
+}
+
+.joke-wrapper .joke img {
+    flex: 1;
+    width: 50px;
+   
+}
+
+.joke-wrapper .joke p {
+    flex: 8;
+    margin-left: 20px;
+    text-align: left;
+   
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
