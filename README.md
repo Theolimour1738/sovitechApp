@@ -1,10 +1,12 @@
 # Welcome to my sovitech app
-Please follow the intructions in order to run this application
--download Node.js
--Run npm install in the root folder of the project
--this will intall the latest node modules
--npm install –g @angular/cli
--ng serve –open
+# Please follow the intructions in order to run this application
+ -download Node.js
+ - clone the project into your local machine
+ - cd into the root folder of Sovitechapp
+ -Run npm install in the root folder of the project
+ -this will intall the latest node modules
+ -npm install –g @angular/cli
+ -ng serve –open
 #in order to test that the functionalities of the  application  please run the .net web api as well  from your visual studio
 
 # SovitechApp
